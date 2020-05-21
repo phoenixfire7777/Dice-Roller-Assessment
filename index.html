@@ -4,15 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assests/css/style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <input id="num-of-dice" type="text">
+    <div>Enter the number of dice</div>
+    <input id="num-of-dice" type="text" placeholder="enter # of dice">
+    <div>Enter the number of sides the dice has</div>
+    <input id="num-of-sides-on-dice" type="text" placeholder="enter # of sides on dice ">
     <button id="roll-button">Roll</button>
-    <div id="total"></div>
-    <button id="Show-all-rolls">Show All Rolls</button>
+    <div id="total">The sum of rolls is 0</div>
+    <button id="show-all-rolls">Show All Rolls</button>
+    <button id="reset-button">Reset</button>
     <ol id="all-rolls"></ol>
+    <script src="./assests/javascript/dice-roller.js"></script>
 </body>
 
 </html>
